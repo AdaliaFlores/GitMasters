@@ -13,6 +13,7 @@ import Inscripcion from "./pages/Inscripcion";
 function App() {
   return (
     <BrowserRouter>
+       <div className="app">
       <Navbar />
       <main>
       <Routes>
@@ -26,6 +27,7 @@ function App() {
       </main>
 
       <Footer />
+      </div>
     </BrowserRouter>
   );
 }
