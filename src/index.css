@@ -486,3 +486,18 @@ footer {
 .next {
   right: -20px;
 }
+
+.galeria-indicadores span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  margin: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.galeria-indicadores .activo {
+  background-color: #f97316;
+}
+
