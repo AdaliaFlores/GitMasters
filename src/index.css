@@ -466,3 +466,23 @@ footer {
   width: 100%;
   border-radius: 12px;
 }
+
+.galeria-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #d7490c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.prev {
+  left: -20px;
+}
+
+.next {
+  right: -20px;
+}
