@@ -1,5 +1,10 @@
+// Galeria.jsx
 function Galeria() {
-  return <h1>Inicio</h1>;
+  return (
+    <div className="galeria">
+      <h1>Galería</h1>
+    </div>
+  );
 }
 
 export default Galeria;
