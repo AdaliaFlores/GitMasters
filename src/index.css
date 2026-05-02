@@ -450,3 +450,19 @@ footer {
     gap: 15px;
   }
 }
+/*galery*/
+.galeria {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.carrusel {
+  position: relative;
+  margin-top: 30px;
+}
+
+.galeria-img {
+  width: 100%;
+  border-radius: 12px;
+}
