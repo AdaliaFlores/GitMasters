@@ -298,3 +298,155 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+/* NOSOTROS - Página nosotros */
+
+.nosotros {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.nosotros-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.nosotros-hero {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.nosotros-hero h2 {
+  color: #d7490c;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.nosotros-hero p {
+  color: #4b5563;
+  font-size: 18px;
+  line-height: 1.7;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nosotros-mision-vision {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.nosotros-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-left: 5px solid #f97316;
+}
+
+.nosotros-card h3 {
+  color: #1f150f;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.nosotros-card p {
+  color: #6b7280;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.nosotros-valores h3 {
+  color: #1f150f;
+  font-size: 24px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.valor-item {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s;
+}
+
+.valor-item:hover {
+  transform: translateY(-5px);
+}
+
+.valor-item span {
+  font-size: 36px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.valor-item h4 {
+  color: #1f150f;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.valor-item p {
+  color: #6b7280;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.nosotros-ubicacion {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.nosotros-ubicacion h3 {
+  color: #1f150f;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.ubicacion-info {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.ubicacion-info .info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #4b5563;
+}
+
+.horario {
+  color: #6b7280;
+  font-size: 16px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .nosotros-mision-vision {
+    grid-template-columns: 1fr;
+  }
+
+  .ubicacion-info {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
