@@ -31,6 +31,15 @@ function Galeria() {
           ❯
         </button>
       </div>
+      <div className="galeria-indicadores">
+        {imagenes.map((_, i) => (
+          <span
+            key={i}
+            className={i === index ? "activo" : ""}
+            onClick={() => setIndex(i)}
+          ></span>
+        ))}
+      </div>
     </div>
   );
 }
