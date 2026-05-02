@@ -10,13 +10,12 @@ function Galeria() {
   const [index, setIndex] = useState(0);
 
   const siguiente = () => {
-    setIndex(index + 1);
+    setIndex((prev) => (prev + 1) % imagenes.length);
   };
 
   const anterior = () => {
-    setIndex(index - 1);
+    setIndex((prev) => (prev - 1 + imagenes.length) % imagenes.length);
   };
-
   return (
     <div className="galeria">
       <h1>Galería</h1>
