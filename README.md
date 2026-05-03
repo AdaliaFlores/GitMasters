@@ -11,14 +11,19 @@ Incluye secciones como galería, eventos, contacto y nosotros.
 
 ## Integrantes
 
-<p align="center">
-  <img src="./images/photo_2026-05-02_20-49-28.jpg" width="400px" />
-  <img src="./images/photo_2026-05-02_20-49-30.jpg" width="400px" />
-</p>
-<p align="center">
-  Sebastian Bravo
-  Adalia Flores Escobar
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./images/photo_2026-05-02_20-49-28.jpg" width="150px"/><br/>
+      <b>Sebastian Bravo</b>
+    </td>
+    <td align="center">
+      <img src="./images/photo_2026-05-02_20-49-30.jpg" width="200px"/><br/>
+      <b>Adalia Flores Escobar</b>
+    </td>
+  </tr>
+</table>
+
 ---
 
 ## 🛠️ Tecnologías utilizadas
