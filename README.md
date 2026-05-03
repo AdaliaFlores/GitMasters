@@ -1,16 +1,30 @@
-# React + Vite
+# ♟️ Club de Ajedrez Bravo's
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="./images/photo_2026-05-02_20-49-25.jpg" width="150px" />
+</p>
 
-Currently, two official plugins are available:
+Aplicación web desarrollada con React para la gestión y promoción del **Club de Ajedrez Bravo's**.  
+Incluye secciones como galería, eventos, contacto y nosotros.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Integrantes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+<p align="center">
+  <img src="./images/photo_2026-05-02_20-49-28.jpg" width="400px" />
+  <img src="./images/photo_2026-05-02_20-49-30.jpg" width="400px" />
+</p>
+<p align="center">
+  Sebastian Bravo
+  Adalia Flores Escobar
+</p>
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚛️ React  
+- ⚡ Vite  
+- 🎨 CSS  
+
+---
