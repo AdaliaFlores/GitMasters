@@ -1,7 +1,7 @@
 # ♟️ Club de Ajedrez Bravo's
 
 <p align="center">
-  <img src="./images/photo_2026-05-02_20-49-25.jpg" width="150px" />
+  <img src="./images/photo_2026-05-02_20-49-25.jpg" width="400px" />
 </p>
 
 Aplicación web desarrollada con React para la gestión y promoción del **Club de Ajedrez Bravo's**.  
@@ -33,3 +33,33 @@ Incluye secciones como galería, eventos, contacto y nosotros.
 - 🎨 CSS  
 
 ---
+
+## 📂 Estructura del proyecto
+
+```bash
+src/
+  ├── assets/ # imágenes
+  ├── components/ # componentes React
+  ├── pages/ # vistas (Contacto, Eventos, etc.)
+  └── App.jsx
+```
+
+---
+
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Clonar el repositorio:
+```bash
+git clone <tu-repo>
+```
+
+Instalar dependencias:
+```bash
+npm install
+```
+
+Ejecutar:
+```bash
+npm run dev
+```
